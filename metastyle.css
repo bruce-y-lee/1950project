@@ -1,0 +1,105 @@
+
+/*
+
+
+*/
+
+header{
+	
+	background-color:#000000;
+	color:#ffffff;
+	font-family:'century gothic';
+	text-align:center;
+	font-size:16pt;
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:1920px;
+}
+
+nav{
+	border-style:solid;
+	border-left:0px;
+	border-right:0px;
+	background-color:#bfbfbf;
+	text-align:center;
+	font-family:'century gothic';
+	width:1923px;
+	height:27px;
+	padding-top:17px;
+	padding-bottom:10px;
+	position:absolute;
+	top:107px;
+	left:-3px;
+}
+
+
+footer{
+	background-color:#000000;
+	color:#ffffff;
+	font-family:'century gothic';
+	text-align:left;
+	padding-left:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	position:absolute;
+	top:873px;
+	left:0px;
+	width:1910px;
+	height:66px;
+}
+
+
+
+
+
+
+
+
+
+
+a:link{
+	text-decoration: none;
+	color:#0000FF;
+}
+
+a:visited{
+	text-decoration: none;
+	color:#0000FF;
+}
+
+a:hover{
+	text-decoration: underline;
+
+}
+a:active{
+	text-decoration: underline;
+	
+}
+
+.alignment{
+	position:absolute;
+	left:60px;
+	width:1700px;
+}
+
+#validate{
+	font-family:'Century Gothic';
+	position:absolute;
+	top:850px;
+	left:10px;
+}
+
+#members{
+	font-family: 'century gothic';
+	position:absolute;
+	top:200px;
+	
+}
+
+#description{
+	font-family: 'century gothic';
+	position:absolute;
+	top:400px;
+
+}
