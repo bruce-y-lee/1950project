@@ -1,0 +1,46 @@
+/*
+    temporary style sheet
+    author: SK
+    date: Dec 5, 2018
+*/
+
+
+body{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid red; // to be removed later; for design reference only
+}
+
+header{
+    text-align: center;
+    border: 1px solid blue; //to be removed later
+}
+
+aside{
+    float: right;
+    border: 2px solid red;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav{
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid black; //to be removed later
+}
+
+
+main{
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid orangered; //to be removed later
+}
+
+
+footer{
+    clear: both;
+    text-align: center;
+    border: 1px solid black; //to be removed later
+}
