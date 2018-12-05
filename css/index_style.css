@@ -1,0 +1,95 @@
+/* set headings size */
+h1{
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+h2{
+    font-size: 2.0rem;
+    text-align: center;
+}
+
+h3{
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+h4{
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+h5{
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+h6{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+
+#todo {
+    float:right;
+    background-color: #ffffcc;
+    border: 2px solid red;
+    border-radius: 5px;
+} 
+
+#todo h2{
+    font-family: times, "times new roman", serif;
+}
+
+#todo li{
+    list-style-type: none;
+    text-align: left;
+}
+
+.jumbotron
+{
+    text-align: center;
+    font-family: times, "times new roman", serif;
+}
+
+/* navgiation style */
+nav{
+    background-color:#7ec0ee;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+}
+
+nav a{
+    font-family: times, "times new roman", serif;
+    font-weight: bold;
+    color: black;
+}
+
+nav li{
+    list-style-type: decimal-leading-zero;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+nav h2{
+    font-family: times, "times new roman", serif;
+    font-size: 2.0rem;
+    text-align: center;
+}
+
+/* set footer style */
+footer{
+    font-family: times, "times new roman", serif;
+    text-align: center;
+    font-weight: bold;
+}
