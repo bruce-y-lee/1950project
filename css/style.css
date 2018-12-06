@@ -1,0 +1,67 @@
+/**********
+Author : Alisa Thaion
+Style for leture1 content
+**************/
+section.accordion{
+    font-size: 14px;
+}
+section h4{
+    border: 1px solid #ffffff;
+    width: 100%;
+    background-color: whitesmoke;
+    text-align: left;
+}
+h5.mb-0{
+    text-align: left;
+}
+section h3{
+    font-size: 16px;
+    font-weight: bold;
+}
+.card-body a{
+    text-decoration: none;
+    color: #C25B56;
+}
+.card-body a:hover{
+    text-decoration: underline;
+    color:#963b36;
+}
+.btn-link{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+}
+.btn-link:hover{
+    color:#ffffff;
+}
+.card-header{
+    background-color: #999999;
+    padding: .15rem 1.25rem;
+}
+.highlight{
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    margin-right: 40px;
+    padding-left:10px;
+}
+
+
+
+/**************************Style for printer*******************************/
+@media print{
+    .card-header, nav, footer{
+        display:none;
+    }
+    #collapseOne, #collapseTwo, #collapseThree, #collapseFour, #collapseFive{
+        display: block;
+    }
+    h1, h2, h3, h4, h5, h6{
+        page-break-after: avoid;
+    }
+    section{
+        page-break-before: always;
+    }
+    a[href^="http"]:after{
+        content: " (URL: "attr(href) ") ";
+    }
+}
