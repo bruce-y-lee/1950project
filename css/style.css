@@ -54,7 +54,7 @@ section h3{
 
 /**************************Style for printer*******************************/
 @media print{
-    .card-header, nav, footer{
+    .card-header, nav, footer, #todo{
         display:none;
     }
     #collapseOne, #collapseTwo, #collapseThree, #collapseFour, #collapseFive{
@@ -69,4 +69,5 @@ section h3{
     a[href^="http"]:after{
         content: " (URL: "attr(href) ") ";
     }
+    
 }
