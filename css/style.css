@@ -11,6 +11,9 @@ section h4{
     background-color: whitesmoke;
     text-align: left;
 }
+section h3{
+    text-align: left;
+}
 h5.mb-0{
     text-align: left;
 }
@@ -44,7 +47,9 @@ section h3{
     margin-right: 40px;
     padding-left:10px;
 }
-
+.imagebox {
+    width: 100%;
+}
 
 
 /**************************Style for printer*******************************/
