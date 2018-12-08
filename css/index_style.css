@@ -29,9 +29,9 @@ h6{
     text-align: center;
 }
 
-
 #todo {
     float:right;
+    width: 100%;
     background-color: #ffffcc;
     border: 2px solid red;
     border-radius: 5px;
@@ -44,6 +44,13 @@ h6{
 #todo li{
     list-style-type: none;
     text-align: left;
+/*    padding-left: 5px;
+    padding-right: 5px; */
+}
+
+#todo a{
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .jumbotron
@@ -67,7 +74,7 @@ nav a{
 }
 
 nav li{
-    list-style-type: decimal-leading-zero;
+    list-style-type: none;
     padding-top: 5px;
     padding-bottom: 5px;
 }
