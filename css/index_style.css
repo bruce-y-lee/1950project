@@ -13,43 +13,64 @@ body{
 
 /* set headings size */
 h1{
+    font-family: times, "times new roman", serif;
     font-size: 2.2rem;
+    font-weight: bold;
     text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 h2{
+    font-family: times, "times new roman", serif;
     font-size: 2.0rem;
+    font-weight: bold;
     text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 h3{
+    font-family: times, "times new roman", serif;
     font-size: 1.8rem;
+    font-weight: bold;
     text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 h4{
+    font-family: times, "times new roman", serif;
     font-size: 1.6rem;
+    font-weight: bold;
     text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 h5{
+    font-family: times, "times new roman", serif;
     font-size: 1.4rem;
+    font-weight: bold;
     text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 h6{
+    font-family: times, "times new roman", serif;
     font-size: 1.2rem;
+    font-weight: bold;
     text-align: center;
-}
-
- 
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+} 
 
 /* set unordered list style */
 ul{
     padding-left: 35px;
     list-style-type: disc;
 }
-
 
 /* set todo list style */
 #todo {
@@ -86,16 +107,10 @@ ul{
 
 /* navgiation style */
 nav{
-    background-color:#7ec0ee;
+    background-color:#99d5ff;
     padding-left: 5px;
     padding-right: 5px;
     border-radius: 5px;
-}
-
-nav a{
-    font-family: times, "times new roman", serif;
-    font-weight: bold;
-    color: black;
 }
 
 nav ul{
@@ -107,9 +122,27 @@ nav li{
     padding-top: 5px;
     padding-bottom: 5px;
 }
+nav a{
+    font-family: times, "times new roman", serif;
+    font-weight: bold;
+    color: black;
+}
 
+nav a:link{
+    color: black;
+}
 
+nav a:visited{
+    color: gray;
+}
 
+nav a:hover{
+    color: red;
+}
+
+nav a:active{
+    color: red;
+}
 
 nav h2{
     font-family: times, "times new roman", serif;
@@ -117,20 +150,30 @@ nav h2{
     text-align: center;
 }
 
+/* set general hyperlink style */
+a:link{
+    color: blue;
+}
 
+a:visited{
+    color: gray;
+}
 
+a:hover{
+    color: red;
+}
 
+a:active{
+    color: red;
+}
 
+/* set imporant information style */
+.important{
+    font-weight: bold;
+    background-color: orange;
+}
 
-
-
-
-
-
-
-
-
-
+/* set overview list style */
 .overview_list{
     list-style-type: none;
 }
@@ -140,7 +183,6 @@ nav h2{
     background-color: greenyellow;
     padding-left: 5px;
 }
-
 
 /* set footer style */
 footer{
