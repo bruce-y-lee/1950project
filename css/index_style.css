@@ -105,6 +105,11 @@ ul{
     font-family: times, "times new roman", serif;
 }
 
+#sub_heading{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
 /* navgiation style */
 nav{
     background-color:#99d5ff;
