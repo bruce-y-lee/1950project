@@ -109,6 +109,7 @@ ul{
     background-size: cover;
     opacity: 0.5;
 }
+
 h1.display-3{
     filter: contrast(200%);
 }
