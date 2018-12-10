@@ -116,6 +116,11 @@ p.display-3{
     filter: contrast(200%);
 }
 
+#sub_heading{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
 /* navgiation style */
 nav{
     background-color:#99d5ff;
@@ -188,12 +193,13 @@ a:active{
 /* set overview list style */
 .overview_list{
     list-style-type: none;
-}
-
-.overview_list > li{
     font-weight: bold;
     background-color: greenyellow;
     padding-left: 5px;
+}
+
+.no_list_style{
+    list-style-type: none;
 }
 
 /* set footer style */
