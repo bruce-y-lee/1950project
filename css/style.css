@@ -2,6 +2,24 @@
 Author : Alisa Thaion
 Style for leture1 content
 **************/
+
+
+/****header style******/
+.jumbotron
+{
+    text-align: center;
+    font-family: times, "times new roman", serif;
+    background-image: url('../images/banner_image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+}
+h1.display-3{
+    filter: contrast(200%);
+}
+p.display-3{
+    filter: contrast(200%);
+}
 section.accordion{
     font-size: 14px;
 }
@@ -39,7 +57,7 @@ section h3{
 }
 .card-header{
     background-color: #999999;
-    padding: .15rem 1.25rem;
+    padding: .05rem 1.00rem;
 }
 .highlight{
     border-radius: 10px;

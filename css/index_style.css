@@ -83,6 +83,7 @@ ul{
 
 #todo h2{
     font-family: times, "times new roman", serif;
+    font-size: 2vw;
 }
 
 #todo ul{
@@ -98,11 +99,21 @@ ul{
     padding-left: 5px;
     padding-right: 5px;
 }
-
+/****header style******/
 .jumbotron
 {
     text-align: center;
     font-family: times, "times new roman", serif;
+    background-image: url('images/banner_image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+}
+h1.display-3{
+    filter: contrast(200%);
+}
+p.display-3{
+    filter: contrast(200%);
 }
 
 /* navgiation style */
@@ -146,8 +157,9 @@ nav a:active{
 
 nav h2{
     font-family: times, "times new roman", serif;
-    font-size: 2.0rem;
+    font-size: 2vw;
     text-align: center;
+
 }
 
 /* set general hyperlink style */
@@ -189,4 +201,21 @@ footer{
     font-family: times, "times new roman", serif;
     text-align: center;
     font-weight: bold;
+}
+
+/********** printer style***************/
+@media print{
+    nav, footer, #todo{
+        display:none;
+    }
+    h1, h2, h3, h4, h5, h6{
+        page-break-after: avoid;
+    }
+    section{
+        page-break-before: always;
+    }
+    a[href^="http"]:after{
+        content: " (URL: "attr(href) ") ";
+    }
+    
 }
