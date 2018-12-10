@@ -1,0 +1,164 @@
+
+/*
+
+
+*/
+
+html, body {
+    max-width: 100%;
+	overflow-x: hidden;
+	background-color:lightgr
+}
+
+main{
+	margin-bottom:10px;
+}
+
+header{
+	
+	background-color:#000000;
+	color:#ffffff;
+	font-family:'century gothic';
+	text-align:center;
+	font-size:16pt;
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+}
+
+
+nav{
+	border-style:solid;
+	border-left:0px;
+	border-right:0px;
+	background-color:#bfbfbf;
+	text-align:center;
+	font-family:'century gothic';
+	width:100.10%;
+	height:27px;
+	padding-top:17px;
+	padding-bottom:10px;
+	position:absolute;
+	top:107px;
+	left:-3px;
+}
+
+
+footer{
+	background-color:#000000;
+	color:#ffffff;
+	font-family:'century gothic';
+	text-align:left;
+	padding-left:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	position:absolute;
+	top: 1300px;
+	left:0px;
+	width:100.10%;
+	height:66px;
+}
+
+li{
+	padding-bottom: 20px;
+}
+
+footer {
+	background-color: black;
+}
+
+footer > p{
+	position: relative;
+	left:-10px;
+	padding-left:10px;
+	padding-bottom:10px;
+	background-color: #000000;
+	color:#ffffff;
+}
+
+footer > p > a:link {
+	color:#ffffff;
+}
+
+
+
+
+
+
+a:link{
+	text-decoration: none;
+	color:#ffffff;
+}
+
+a:visited{
+	text-decoration: none;
+	color:#ffffff;
+}
+
+a:hover{
+	text-decoration: underline;
+
+}
+a:active{
+	text-decoration: underline;
+	
+}
+
+.alignment{
+	position:absolute;
+	left:25%;
+	width:50%;
+	
+}
+
+#validate{
+	font-family:'Century Gothic';
+	position:absolute;
+	top:1270px;
+	left:10px;
+	color:blue;
+}
+
+#members{
+	font-family: 'century gothic';
+	position:absolute;
+	top:200px;
+	
+}
+
+#description{
+	font-family: 'century gothic';
+	position:absolute;
+	top:430px;
+
+}
+
+@media print { 
+	header { display:none;	}
+	footer{ display:none;	}
+	nav { display:none;	}
+	#validate{ display:none; }
+	#members{
+				font-size:11.5pt;
+				left:10px;
+				top:10px;
+			}
+
+	#description{ 
+					font-size:11.5pt; 
+					left:10px;
+					top:160px;
+				}
+
+	.alignment{width:90%;}
+}
+
+@media screen and (max-width: 800px){ 
+	footer{ top:1560px; 
+			text-align:center;
+			font-family: Arial;}
+	#validate{
+		top:1540px;
+	}
+}
