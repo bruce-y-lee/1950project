@@ -1,0 +1,17 @@
+/* Author : Yong */
+
+#sidebar {
+  background-color:#debfbf;
+  text-align: center;
+  font-size: 1.5em;
+  /* height:100%; */
+  width:160px;
+  position:fixed;
+  right:0;
+}
+
+.result_quiz{
+  color: #008CBA;
+  font-size:1.5em;
+  font-weight: bold;
+}
